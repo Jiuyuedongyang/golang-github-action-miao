@@ -4,7 +4,7 @@ import "fmt"
 
 func Cat() string {
 	word:="Miao"
-	return fmt.Sprintf("%s~~~~~",word)
+	return fmt.Sprintf("%s~~~",word)
 }
 func main() {
 	saying := Cat()
