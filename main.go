@@ -1,12 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"GitHub_cicd_test/pets"
+	"fmt"
+)
 
-func Cat() string {
-	word:="Miao"
-	return fmt.Sprintf("%s~~~",word)
-}
+
 func main() {
-	saying := Cat()
+	saying := pets.Cat()
 	fmt.Println(saying)
 }
