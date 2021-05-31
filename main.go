@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"GitHub_cicd_test/pets"
+	"fmt"
+)
 
-func Cat() string {
-	return "Miao~~~"
-}
 func main() {
-	saying := Cat()
+	var password="123456"
+
+	fmt.Printf("my password %s",password)
+	saying := pets.Cat()
 	fmt.Println(saying)
 }
